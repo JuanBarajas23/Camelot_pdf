@@ -1,0 +1,228 @@
+[
+  {
+    "id": "1",
+    "type": "table",
+    "shape": [
+      10,
+      4
+    ],
+    "document_id": "benchmark.pdf",
+    "pages": [
+      7
+    ],
+    "bbox": [
+      48.948488512696485,
+      191.03546180159634,
+      567.2266021765416,
+      705.5832383124288
+    ],
+    "extract_method": "lattice",
+    "table_markdown": "| **Producto / proveedor** | **¿Qué hace con PDFs?** | **Tecnología detrás (modelos/plataforma)** | **Seguridad / notas clave** |\n| --- | --- | --- | --- |\n| Adobe Acrobat AI Assistant | Resumen, Q&A sobre PDF, genera puntos clave y citas | Modelos de Adobe + orquestación en Acrobat; asistente integrado en Reader/Acrobat | Datos no se usan para entrenar por defecto; controles empresariales. |\n| Google Gemini en Drive / Vertex AI | En Drive/Workspace resume PDFs; en Vertex AI admite PDFs como input para resumir | Gemini (Vertex AI); APIs de document understanding y ejemplos de “Process a PDF” | Controles de Google Cloud/Workspace; opciones de residencia de datos en GCP. |\n| Microsoft Copilot (Edge / 365) | En Edge: resumir PDF abierto; en M365: resumen y Q&A con contenido empresarial | Modelos de Azure OpenAI integrados; Copilot sobre Graph y OneDrive/SharePoint | Hereda cumplimiento de M365/Azure; controles IT. |\n| Box AI | Resumen y Q&A sobre archivos (incluye PDFs) dentro de Box | Usa modelos de OpenAI y Anthropic (según Box) | Datos se quedan en Box; gobierno y permisos nativos. |\n| Dropbox AI | Resumen y Q&A de archivos almacenados (PDF incluido) | Orquestación propia + LLMs (no detallan modelos específicos públicamente) | Integrado en Dropbox con controles empresariales. |\n| ChatGPT (OpenAI) | Cargar PDF y pedir resumen/insights; Enterprise soporta visual retrieval en PDFs | OpenAI GPT-4.x/4.1; carga de archivos en ChatGPT/Enterprise | En Enterprise: aislamiento de datos y SSO; guías oficiales de archivos. |\n| Perplexity (Pro) | Subes PDFs y te devuelve resúmenes y respuestas | Orquestación con LLMs + búsqueda | Foco en citaciones; plan Pro. |\n| Humata | Sube PDFs; hace resúmenes, Q&A y extracción | LLMs + RAG sobre tus documentos | Enfatiza privacidad/seguridad para empresa. |\n| SciSpace Copilot | Resumen de papers PDF, explicación sección por sección | LLMs ajustados a papers científicos | Muy usado para investigación académica. |\n| AWS Bedrock (Knowledge Bases) | Construir apps que resuman/consulten PDFs vía RAG gestionado | Amazon Bedrock (Anthropic, Amazon, etc.); Knowledge Bases, GraphRAG | Servicio totalmente gestionado; integra parsing de documentos complejos. |"
+  },
+  {
+    "id": "2",
+    "type": "table",
+    "shape": [
+      14,
+      4
+    ],
+    "document_id": "benchmark.pdf",
+    "pages": [
+      8
+    ],
+    "bbox": [
+      49.18843208383716,
+      177.83577537058153,
+      546.1115679161628,
+      752.8621151653364
+    ],
+    "extract_method": "lattice",
+    "table_markdown": "| **Solución** | **Precio / Modalidad** | **Modalidad de Pago** | **Límite de Archivos o Páginas** |\n| --- | --- | --- | --- |\n| Adobe Acrobat AI Assistant | $4.99/mes (intro hasta junio 2025); luego $9.99/mes | Suscripción mensual (add-on a Acrobat) | Hasta 10 documentos para “generative summary” |\n| Google Gemini (Drive / Vertex AI) | API: pago por tokens (p. ej. Gemini 2.5 Pro: $1.25 por millón input tokens, $10 salida tokens) . ... | Pago por uso (tokens) y suscripciones mensuales | No hay límite de páginas; depende de tokens usados |\n| Microsoft | Copilot incluido en M365; precio aprox. |  |  |\n| Copilot (365 / Edge) | $30–31.50/usuario/mes (no encontramos fuente exacta, | Suscripción mensual por usuario | No especificado públicamente |\n|  | podrías consultarlo internamente) |  |  |\n| Box AI | Box Business desde $20 a $50/usuario/mes | Suscripción mensual por usuario | Tamaño por archivo entre 5 GB y 150 GB según plan |\n| Dropbox AI | Dropbox Business $20–26/usuario/mes | Suscripción mensual por usuario | Límite de tamaño según plan (hasta ~150 GB) |\n| ChatGPT (OpenAI) | Plus $20/mes; Team $25–30/usuario; Pro $200/mes; Enterprise (varía) | Suscripción mensual/anual por usuario | Carga de archivos hasta 512 MB (~2 M tokens) |\n| Perplexity (Pro / Enterprise) | Pro $20/mes o $200/año; Enterprise Pro $40/mes o $400/año por usuario | Suscripción mensual/anual por usuario | Pro: uploads ilimitados; límite de consultas (~300/día) |\n|  |  |  |  |\n| Humata | Free: hasta 60 páginas; Student $199/mes (200 páginas); Expert $999/mes (500 páginas); Team $49/u... | Suscripción mensual por usuario | Límite de páginas según plan; adicional desde $0.01–0.02/página |\n| SciSpace Copilot | Premium $12/mes anual ($20/mes pago mensual); Labs/Univ. $8/usuario/mes; Free limitado | Suscripción mensual/anual | Premium: export y uso ilimitado; Free: limitado en mensajes y búsquedas |\n| AWS Bedrock (Knowledge Bases) | No precio fijo; se paga por uso (modelos + almacenamiento): p. ej. embeddings ~$9/mes; vector DB ... | Pago por uso (tokens, KB, servicios AWS) | No hay límite de páginas; depende de capacidad de KB y costo asociable |\n|  | ejemplo |  |  |"
+  },
+  {
+    "id": "3",
+    "type": "table",
+    "shape": [
+      7,
+      5
+    ],
+    "document_id": "benchmark.pdf",
+    "pages": [
+      10
+    ],
+    "bbox": [
+      70.30346634421603,
+      298.312913340935,
+      546.1115679161628,
+      683.0237742303307
+    ],
+    "extract_method": "lattice",
+    "table_markdown": "| **Solución ¿Qué hace? Tecnología detrás Mín. de infraestructura** | **** | **** | **** | **** |\n| --- | --- | --- | --- | --- |\n| Ollama | Ejecuta LLMs locales y puedes resumir PDFs (vía script/plug-ins o RAG) | Motor local para modelos abiertos (Llama 3.x, Mistral, Qwen, DeepSeek); CLI/API |  | Funciona en Windows 10+/macOS 12+/Linux; CPU- only posible; recomendable ≥8- 16 GB RAM y GPU dedi... |\n| privateGPT | RAG local sobre PDFs (ingestas, indexa y resume sin enviar datos fuera) | LLM abierto + embeddings + FAISS; todo en local |  | Corre en CPU; mejora con GPU. Guías para WSL/GPU; rendimiento depende del tamaño de modelo. |\n| llama.cpp (motor) | Inferencia local de modelos GGUF para resumir/QA | Backend C++ (GGML/GGUF) para Llama/Mixtral/Qwen, etc. |  | CPU-only viable; para 7B se sugiere ~6–8 GB RAM/VRAM; 13B ~10+ GB; mejores resultados con GPU mod... |\n| IBM | Despliegue on-prem de | watsonx.ai + Red Hat |  | Requiere clúster OpenShift; |\n| watsonx (on-prem en OpenShift) | modelos/LLMs para tareas como resumen | OpenShift en tu datacenter |  | sizing según modelo/uso; opción totalmente on-prem. |\n| NVIDIA NeMo / NIM | Pila on-prem para LLMs y RAG (incl. sobre PDFs) | Inference Microservices (NIM), NeMo, retrievers; integra GPUs NVIDIA |  | Servidores con GPU NVIDIA (VRAM según modelo); despliegue local/air-gapped posible. |\n| Haystack (deepset) | Framework open- source para RAG/QA/resumen de documentos | Python + conectores + FAISS/ES/Weaviate; LLM abierto/local |  | Corre en servidores x86 estándar; CPU-only posible; GPU acelera. |"
+  },
+  {
+    "id": "4",
+    "type": "table",
+    "shape": [
+      9,
+      3
+    ],
+    "document_id": "benchmark.pdf",
+    "pages": [
+      11
+    ],
+    "bbox": [
+      56.14679564691656,
+      469.42884834663624,
+      546.1115679161628,
+      721.6628563283922
+    ],
+    "extract_method": "lattice",
+    "table_markdown": "| **Solución** | **Modalidad de Cobro / Costo** | **Límite de Procesamiento / Páginas** |\n| --- | --- | --- |\n| Ollama | Open-source, gratuito, sin suscripción | Depende del hardware y tamaño de contexto; sin límite explícito |\n|  |  | Depende de la capacidad local |\n| privateGPT | Open-source, gratuito | (RAM, CPU/GPU) |\n| llama.cpp | Open-source, gratuito (librería/motor) | Sin límite; depende del hardware y |\n|  |  | tamaño del contexto |\n| IBM watsonx | Suscripción enterprise. Ejemplo: Standard USD 1,050/mes por 2,500 | Medido por tokens o CUH; no por |\n|  | CUH | páginas |\n| NVIDIA NeMo / NIM | Parte de NVIDIA AI Enterprise. Ejemplo: NIM ≈ USD 4,500/anual por GPU | Depende de la capacidad del GPU; no límite de páginas |\n| Haystack (deepset) | Open-source gratuito. Enterprise con precios personalizados. Free Studio: 50 archivos (10 MB c/u)... | Limitado en la versión gratuita; Enterprise sin límite explícito |"
+  },
+  {
+    "id": "5",
+    "type": "table",
+    "shape": [
+      9,
+      4
+    ],
+    "document_id": "benchmark.pdf",
+    "pages": [
+      12
+    ],
+    "bbox": [
+      56.14679564691656,
+      371.75116875712655,
+      560.2682386134622,
+      753.1021094640821
+    ],
+    "extract_method": "lattice",
+    "table_markdown": "| **Criterio** | **Soluciones en la Nube** | **** | **Soluciones On-Premise / Infra Cliente** |\n| --- | --- | --- | --- |\n| Ejemplos | Adobe Acrobat AI, Microsoft Copilot, Google Vertex, AWS Bedrock | Ollama, Llama2/Mistral locales, LangChain + modelos open source |  |\n| Facilidad de uso | Muy alta, se consumen vía suscripción o API | Media, requieren instalación y configuración |  |\n| Parsing de documentos | Integrado en la mayoría (Adobe, Copilot) | Depende de librerías adicionales (Tika, PDFMiner, OCR) |  |\n| Escalabilidad | Escala masiva en minutos | Limitada por hardware del cliente |  |\n| Personalización | Limitada (enfocada a casos estándar) | Alta (puede entrenarse/adaptarse a dominio específico) |  |\n| Seguridad y privacidad | Dependencia de la nube → riesgo de compliance y datos sensibles | Control total del cliente sobre sus datos |  |\n| Infraestructura mínima | Solo acceso a internet | Servidores con GPU/CPU robustos, RAM alta, almacenamiento |  |\n| Costos | Pago por suscripción / consumo | Inversión inicial en hardware + soporte |  |\n| Diferencial clave | Rapidez y simplicidad | Control, privacidad y adaptación |  |"
+  },
+  {
+    "id": "6",
+    "type": "table",
+    "shape": [
+      4,
+      4
+    ],
+    "document_id": "benchmark.pdf",
+    "pages": [
+      13
+    ],
+    "bbox": [
+      84.70008061265618,
+      520.7876282782212,
+      340.2399838774687,
+      725.0227765108324
+    ],
+    "extract_method": "lattice",
+    "table_markdown": "| **Tipo de Solución** | **Costos** | **Forma de Pago** | **Límites** |\n| --- | --- | --- | --- |\n| Nube (Adobe, Copilot, Google, etc.) | Bajo a medio (USD 10–30/mes por usuario; pago por uso en AWS/Vertex) | Suscripción mensual/anual o por tokens | Límite de tokens, páginas o consultas según plan |\n| On- Premise (Ollama, | Gratis (open source) o | N/A o | No hay límite de páginas; |\n| privateGPT, llama.cpp, | alto (IBM/NVIDIA | licenciamiento anual | depende del |\n| Haystack, etc.) | Enterprise) |  | hardware disponible |"
+  },
+  {
+    "id": "7",
+    "type": "table",
+    "shape": [
+      [
+        7,
+        3
+      ],
+      [
+        15,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "document_id": "benchmark.pdf",
+    "pages": [
+      13,
+      14,
+      15
+    ],
+    "bbox": [
+      [
+        84.70008061265618,
+        77.03816989737743,
+        307.36771463119703,
+        470.1488312428734
+      ],
+      [
+        84.70008061265618,
+        73.91824401368301,
+        307.36771463119703,
+        753.1021094640821
+      ],
+      [
+        84.70008061265618,
+        615.1053876852908,
+        307.36771463119703,
+        753.1021094640821
+      ]
+    ],
+    "extract_method": "lattice",
+    "table_markdown": "| **Detalle** | **Solución** | **¿Entrega resumen en PDF/Word directamente?** |\n| --- | --- | --- |\n| Permite guardar dentro del PDF el resumen generado. | Adobe Acrobat AI Assistant | ✅ Sí |\n| Inserta el resumen en Word, luego exportable a PDF. | Microsoft Copilot (Word/365/Edge) ✅ Sí |  |\n| Resumen en Google Docs → exportar a Word o PDF. | Google Gemini / Vertex AI (Docs/Drive) | ✅ Sí |\n| Muestra en interfaz; se |  |  |\n| copia/pega al documento. | Box AI | ❌ No nativo |\n| Muestra en interfaz; se copia/pega. | Dropbox AI | ❌ No nativo |\n| Texto en interfaz, debes copiar/pegar o usar plugins de | ChatGPT (OpenAI) | ❌ No nativo |\n| terceros. |  |  |\n| Solo muestra en pantalla, no exporta. | Perplexity Pro | ❌ No nativo |\n| Exportación no incluida, resumen visible en interfaz. | Humata | ❌ No nativo |\n| Se consulta en web; debes | SciSpace Copilot |  |\n| copiarlo manualmente. |  | ❌ No nativo |\n| Devuelve JSON/texto, necesitas integrarlo a | AWS Bedrock (Knowledge Bases) | ❌ Depende de integración |\n| PDF/Word. |  |  |\n| Texto en consola/API; se guarda manualmente en Word/PDF. | Ollama | ❌ No nativo |\n| Igual que Ollama, exportación |  |  |\n| manual o integración adicional. | privateGPT | ❌ No nativo |\n| Motor puro, solo texto; exportación | llama.cpp |  |\n| debe programarse. |  | ❌ No nativo |\n| Permite integraciones para reportes | IBM watsonx (on- | ⚠️Parcial |\n| PDF/Word, no directo al usuario final. | prem) |  |\n| Se pueden automatizar pipelines para generar documentos, pero requiere | NVIDIA NeMo / NIM | ⚠️Parcial |\n| configuración. |  |  |\n| Texto generado en consola/API; exportación programable. | Haystack (deepset) | ❌ No nativo |"
+  },
+  {
+    "id": "8",
+    "type": "table",
+    "shape": [
+      3,
+      3
+    ],
+    "document_id": "benchmark.pdf",
+    "pages": [
+      19
+    ],
+    "bbox": [
+      84.70008061265618,
+      240.71428164196124,
+      510.8398629584844,
+      455.0291904218928
+    ],
+    "extract_method": "lattice",
+    "table_markdown": "| **Caso de uso** | **Herramientas que lo cubren** | **¿DIANA Insights puede competir aquí?** |\n| --- | --- | --- |\n| Resumen rápido de documentos PDF y wordt | Adobe, Copilot, Box AI | Sí, es posible. En modalidad on-premise actualmente funciona con documentos en texto (no imágenes... |\n| Análisis de reportes financieros | ChatGPT, Bedrock | No (on premise) |\n| Infraestructura vieja sin nube | Ollama, privateGPT | ¿Soportamos on-prem? Si |"
+  },
+  {
+    "id": "9",
+    "type": "table",
+    "shape": [
+      2,
+      6
+    ],
+    "document_id": "benchmark.pdf",
+    "pages": [
+      21
+    ],
+    "bbox": [
+      49.18843208383716,
+      71.7582953249715,
+      565.0671100362756,
+      181.19569555302166
+    ],
+    "extract_method": "lattice",
+    "table_markdown": "| **Aspecto** | **Llama 3.1 8B (CPU)** | **GPT-OSS 20B (CPU/GPU opcional)** | **Mistral 7B (GPU recomendad a)** | **Modelo pago en cloud (GPT-4, Gemini, Claude)** | **** |\n| --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |\n| Parámetros | 8 mil millones | 20 mil millones | 7 mil millones | Variable (16B - 400B +) |  |"
+  },
+  {
+    "id": "10",
+    "type": "table",
+    "shape": [
+      8,
+      5
+    ],
+    "document_id": "benchmark.pdf",
+    "pages": [
+      22
+    ],
+    "bbox": [
+      49.18843208383716,
+      168.47599771949828,
+      565.0671100362756,
+      753.1021094640821
+    ],
+    "extract_method": "lattice",
+    "table_markdown": "| **Aspecto** | **Llama 3.1 8B (CPU)** | **GPT-OSS 20B (CPU/GPU opcional)** | **Mistral 7B (GPU recomendad a)** | **Modelo pago en cloud (GPT-4, Gemini, Claude)** |\n| --- | --- | --- | --- | --- |\n| CPU mínimo | 16 cores Xeon/Ryzen recomendados | 24+ cores recomendados | 16 cores para inferencia ligera | No aplica, servidor cloud manejado por proveedor |\n| RAM mínimo | 32-64 GB | 64+ GB | 32 GB para inferencia | No aplica, recursos escalables en cloud |\n| GPU (opcional/recom endado) | No soporta aceleración GPU | Compatible con GPUs NVIDIA A4000/RTX 3080 | Recomendad o GPU NVIDIA RTX A4000 o mejor | Cloud usa hardware de última generación |\n| Velocidad (inferencia) | Lenta en CPU, puede ser minutos | Mejor con GPU, lento en CPU | Rápido en GPU | Inmediato, baja latencia |\n| Compatibilidad SO | Linux/Windows (Linux recomendado) | Linux/Windows (Linux preferido) | Linux preferido | N/A |\n| Tipo de modelos soportados | Solo texto, extractivo básico | Texto, abstracción básica | Texto con abstracción avanzada | Multi-modal, capacidades ampliadas |\n| escalabilidad | Limitada a hardware local | Limitada a hardware local | Escalable con más GPUs | Altamente escalable y flexible |\n| Costos | Costos únicos por hardware y licencia | Hardware alto, mantenimiento local | Costos de GPU + licencia/model | Pago por uso (tokens/duración) |"
+  }
+]

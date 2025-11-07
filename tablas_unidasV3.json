@@ -1,0 +1,307 @@
+[
+  {
+    "id": "ab3d50205c8c4ecf9a00f61895214c32",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      1
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| Column header (TH) | Column header (TH) | Column header (TH) |\n| --- | --- | --- |\n| Row header (TH) | Data cell (TD) | Data cell (TD) |\n| Row header(TH) | Data cell (TD) | Data cell (TD) |"
+  },
+  {
+    "id": "10e6a44f735b401e96d74033b2e4ef7e",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      1
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| Expenditure by function £ million |  | 2009/10 | 2010/11 1 |\n| --- | --- | --- | --- |\n| Policy functions | Financial | 22.5 | 30.57 |\n|  | Information 2 | 10.2 | 14.8 |\n|  | Contingency | 2.6 | 1.2 |\n| Remunerated functions | Agency services 3 | 44.7 | 35.91 |\n|  | Payments | 22.41 | 19.88 |\n|  | Banking | 22.90 | 44.23 |\n|  | Other | 12.69 | 10.32 |"
+  },
+  {
+    "id": "7f987e24837b403ba237c706b87f5958",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      1
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| Main character  Daniel Radcliffe |  |\n| --- | --- |\n| Sidekick 1 | Rupert Grint |\n| Sidekick 2 | Emma Watson |\n| Lovable ogre | Robbie Coltrane |\n|  | Professor  Maggie Smith |\n| Headmaster | Richard Harris |"
+  },
+  {
+    "id": "8b1f1743c0f2409ea0a2c082a0b8c520",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      2
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "|  | Role    Actor |\n| --- | --- |\n| Main character  Daniel Radcliffe |  |\n| Sidekick 1 | Rupert Grint |\n| Sidekick 2 | Emma Watson |\n| Lovable ogre | Robbie Coltrane |\n|  | Professor  Maggie Smith |\n| Headmaster | Richard Harris |"
+  },
+  {
+    "id": "536738d9431c4fc89dcf769bcd1f13c7",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      2
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| 2010 \n2009 \n2008 |  |  |  |\n| --- | --- | --- | --- |\n| Non-current assets |  |  |  |\n| Property | 345 | 445 | 222 |\n| Investment | 567 | 654 | 423 |\n| Intangibles | 423 | 123 | 453 |\n| Current assets |  |  |  |\n| Trade and other receivables | 435 | 634 | 231 |\n| Cash and cash equivalents | 524 | 123 | 482 |\n| Other | 223 | 211 | 254 |"
+  },
+  {
+    "id": "bc1b2fcc0b654e6390b1e75ce092c3e9",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      2
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| Rainfall \n(inches) | Americas | Asia | Europe | Africa |\n| --- | --- | --- | --- | --- |\n| 2010 |  |  |  |  |\n| Average | 104 | 201 | 193 | 144 |\n| 24 hour high | 15 | 26 | 27 | 18 |\n| 12 hour high | 9 | 10 | 11 | 12 |\n| 2009 |  |  |  |  |\n| Average | 133 | 244 | 155 | 166 |\n| 24 hour high | 27 | 28 | 29 | 20 |\n| 12 hour high | 11 | 12 | 13 | 16 |"
+  },
+  {
+    "id": "e97089cba109437985a14b373d1ca27b",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      3
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| Non-current assets | 2010 | 2009 | 2008 |\n| --- | --- | --- | --- |\n| Property | 345 | 445 | 222 |\n| Investment | 567 | 654 | 423 |\n| Intangibles | 423 | 123 | 453 |"
+  },
+  {
+    "id": "4c22e99c52a14678958ca3becb5ad15c",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      3
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| Current assets | 2010 | 2009 | 2008 |\n| --- | --- | --- | --- |\n| Trade and other receivables | 435 | 634 | 231 |\n| Cash and cash equivalents | 524 | 123 | 482 |\n| Other | 223 | 211 | 254 |"
+  },
+  {
+    "id": "8c6428f1c116413098af63c48b2e14bd",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      3
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| Rainfall (inches) | Americas | Asia | Europe | Africa |\n| --- | --- | --- | --- | --- |\n| Average | 133 | 244 | 155 | 166 |\n| 24 hour high | 27 | 28 | 29 | 20 |\n| 12 hour high | 11 | 12 | 13 | 16 |"
+  },
+  {
+    "id": "0c476344cf0a4ed79d59c0791abead3d",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      4
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "|  | 2011 |  | 2010 restated |  |\n| --- | --- | --- | --- | --- |\n| General income |  | 250,000 |  | 200,000 |\n| Increase in value, WIP |  | 15,000 |  | 30,000 |\n|  |  | 265,000 |  | 230,000 |\n| Administrative costs |  |  |  |  |\n| Staff costs | (200,000) |  | (150,000) |  |\n| Early departures | (10,000) |  | (20,000) |  |\n| Other | (25,000) |  | (10,000) |  |\n| Depreciation | (10,000) |  | (10,000) |  |\n| Programme costs |  |  |  |  |\n| Impairment loss | (10,000) |  | (5,000) |  |\n| Other | (5,000) |  | (5,000) |  |\n|  | (260,000) |  | (200,000) |  |\n| Surplus |  | 5,000 |  | 30,000 |"
+  },
+  {
+    "id": "1956749fa156456e9191381d1966d2f4",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      4
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "|  |  | 2011 | 2010 restated |\n| --- | --- | --- | --- |\n| Income | General income | 250,000 | 200,000 |\n|  | Increase in value | 15,000 | 30,000 |\n|  | Total income | 265,000 | 230,000 |\n| Administrative costs | Staff costs | (200,000) | (150,000) |\n|  | Early departures | (10,000) | (20,000) |\n|  | Other operating costs | (25,000) | (10,000) |\n|  | Depreciation | (10,000) | (10,000) |\n| Programme costs | Impairment loss | (10,000) | (5,000) |\n|  | Other | (5,000) | (5,000) |\n|  | Total costs | (260,000) | (200,000) |\n| Surplus |  | 5,000 | 30,000 |"
+  },
+  {
+    "id": "2b5c30a5edc04ee2af524a3ee10d8bc9",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      5
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "|  | 2008 |  | 2009 |  |\n| --- | --- | --- | --- | --- |\n| Name | Yes | No | Yes | No |\n| Bob | 2 | 5 | 6 | 7 |\n| Sue | 3 | 8 | 4 | 7 |\n| Sam | [data relating to both columns in \na single cell spanning both] |  | [data relating to both columns in \na single cell spanning both] |  |"
+  },
+  {
+    "id": "0ac4a485ae3c49feaeb556f6a8923e8c",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      5
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| Question | Respondent A | Respondent B | Respondent C |\n| --- | --- | --- | --- |\n| Are you a UK citizen? |  |  |  |\n| Are you currently employed? |  |  |  |\n| Do you have a driving licence? |  |  |  |"
+  },
+  {
+    "id": "957dfcd138de4662aa1c448e51703127",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      5
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| Question | Respondent A | Respondent B | Respondent C |\n| --- | --- | --- | --- |\n| Are you a UK citizen? | No | Yes | No |\n| Are you currently employed? | Yes | No | Yes |\n| Do you have a driving licence? | No | No | Yes |"
+  },
+  {
+    "id": "743cdf414e3e47afabe5ff9395096acb",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      5,
+      6
+    ],
+    "bbox": [
+      null,
+      null
+    ],
+    "extract_method": "lattice",
+    "table_markdown": "|  | 2006 | 2007 | 2008 | 2009 |\n| --- | --- | --- | --- | --- |\n| Economics | A, B | A, C | A, B | A, C |\n| International relations | A, E | A, E | A, B | A, E |\n| Philosophy | A | A | A | A, D |\n| Politics | A, D | A, D | A, D | A |\n| Mathematics | B, C | B | A, E | A, B |\n| English | A, C | A, B | A,B | C |\n| Economics | No | Yes | Yes | Yes |\n| International relations | No | No | No | No |\n| Philosophy | No | No | No | No |\n| Politics | No | No | No | No |\n| Mathematics | Yes | No | No | No |\n| English | Yes | Yes | Yes | Yes |"
+  },
+  {
+    "id": "706c1b400a8e47959e3fce73aa6e50e7",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      6
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| Accounting item |  | 2011 |\n| --- | --- | --- |\n|  | Income  General income | 200,000 |\n|  | Increase in value, WIP | 30,000 |\n|  | Income subtotal | 230,000 |\n| Administrative costs | Staff | 150,000 |\n|  | Early departures | 20,000 |\n|  | Other operating costs | 10,000 |\n|  | Depreciation | 10,000 |\n| Programme costs | Impairment loss | 10,000 |\n|  | Costs subtotal | 200,000 |\n| Balance |  | 30,000 |"
+  },
+  {
+    "id": "2587061c92234b19b0cb930699557e3c",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      6
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| Accounting item |  | 2011 |\n| --- | --- | --- |\n|  | Income  General income | 200,000 |\n|  | Increase in value, WIP | 30,000 |\n|  | Income subtotal | 230,000 |\n| Administrative costs | Staff | (150,000) |\n|  | Early departures | (20,000) |\n|  | Other operating costs | (10,000) |\n|  | Depreciation | (10,000) |\n| Programme costs | Impairment loss | (10,000) |\n|  | Costs subtotal | (200,000) |\n| Balance |  | 30,000 |"
+  },
+  {
+    "id": "e62a58b57cb34f3b81f0dd453fadc895",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      7
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| Country | 1980 | 1990 | 2000 | 2010 |\n| --- | --- | --- | --- | --- |\n| Afghanistan | 0.78 | 1.48 | 2.16 | 3.33 |\n| Albania | 8.89 | 9.67 | 9.89 | 10.38 |\n| Algeria | 4.74 | 3.33 | 5.50 | 7.24 |\n| Andorra | 4.98 | 5.63 | 9.09 | 10.35 |\n| Angola | - | - | 4.42 | 4.42 |"
+  },
+  {
+    "id": "a916643ea1934b21acb840f93998e6be",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      7,
+      8
+    ],
+    "bbox": [
+      null,
+      null
+    ],
+    "extract_method": "lattice",
+    "table_markdown": "| Expenditure by function £million |  | 2009/10 | 1 \n2010/11 | 2010/11 |\n| --- | --- | --- | --- | --- |\n| Policy functions | Financial | 22.5 | 30.57 | nan |\n|  | 2 \nInformation | 10.2 | 14.8 | nan |\n|  | Contingency | 2.6 | 1.2 | nan |\n| Remunerated functions | Agency services 3 | 44.7 | 35.91 | nan |\n|  | Payments | 22.41 | 19.88 | nan |\n|  | Banking | 22.90 | 44.23 | nan |\n|  | Other | 12.69 | 10.32 | nan |\n| Policy functions | Financial | 22.5 | nan | 30.57 |\n|  | Information | 10.2 | nan | 14.8 |\n|  | Contingency | 2.6 | nan | 1.2 |\n| Remunerated functions | Agency services | 44.7 | nan | 35.91 |\n|  | Payments | 22.41 | nan | 19.88 |\n|  | Banking | 22.90 | nan | 44.23 |\n|  | Other | 12.69 | nan | 10.32 |"
+  },
+  {
+    "id": "13c7972351ab48cc8d0ad08c2fb9a95a",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      8
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| Expenditure £m | Notes  \n(Notes located on  page [n]) | 2010 | 2011 |\n| --- | --- | --- | --- |\n| Information | 1 | 10.2 | 14.8 |\n| Contingency |  | 2.6 | 1.2 |\n| Payments | 3 | 22.41 | 19.88 |\n| Banking services | 4 | 22.90 | 44.23 |\n| Interest |  | 0.23 | 0.10 |\n| Dividends | 23 | 2.5 | 3.68 |\n| Other | 9 | 12.69 | 10.32 |"
+  },
+  {
+    "id": "625af9428b7d497a8a8f0449b173911f",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      8
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "|  | 2008 |  | 2009 |  |\n| --- | --- | --- | --- | --- |\n| Name | Entered | Completed | Entered | Completed |\n| Bob | 22 | 21 | 20 | 19 |\n| Sue | 44 | 12 | 12 | 10 |"
+  },
+  {
+    "id": "fb1ae712d2c2443fb2d9baa5d23e7f04",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      9
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| 2010 \n2009 \n2008 |  |  |  |\n| --- | --- | --- | --- |\n| Non-current assets |  |  |  |\n| Buildings | 345 | 445 | 222 |\n| Investment | 567 | 654 | 423 |\n| Intangibles | 423 | 123 | 453 |\n| Current assets |  |  |  |\n| Trade | 435 | 634 | 231 |\n| Cash | 524 | 123 | 482 |\n| Other | 223 | 211 | 254 |\n| Current liabilities |  |  |  |\n| Trade liabilities | 154 | 125 | 421 |\n| Financial debt | 231 | 474 | 572 |\n| Provisions | 111 | 312 | 347 |"
+  },
+  {
+    "id": "a6f29990dc7341d1946b02cbdc1a9390",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      9
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "|  | 2008 |  | 2009 |  |\n| --- | --- | --- | --- | --- |\n| Name | Entered | Won | Entered | Won |\n| Bob | 22 | 21 | 20 | 19 |\n| Sue | 44 | 12 | 12 | 10 |\n| Sam | 16 | 4 | 45 | 30 |"
+  },
+  {
+    "id": "522931137b17455d9f17a5f816c23468",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      9
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "|  | 2006 | 2007 | 2008 | 2009 |\n| --- | --- | --- | --- | --- |\n| Economics | A, B | A, C | A, C | A, C |\n| International relations | A, E | A, E | A, B | A, B |\n| Philosophy | A | A | A | A |\n| Politics | A, D | A, D | A, B | A |\n| Mathematics | B, C | B | A, B | A, B |\n| English | A, C | A, B | A,B | A, C |"
+  },
+  {
+    "id": "40add865f70c4f90b39d612a2888f622",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      10
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| Name | Apples | Pears |\n| --- | --- | --- |\n| Bob Scott | 20 | 25 |\n| Susan. P. Arnold-Jones, BA, FRSA, MD | 24 | 15 |\n| Sam Holder-Dickinson | 14 | 10 |"
+  },
+  {
+    "id": "cc54965832dd46e79deef8acb1892736",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      10
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "| 2010 \n2009 \n2008 |  |  |  |\n| --- | --- | --- | --- |\n| Non-current assets |  |  |  |\n| Buildings | 345 | 445 | 222 |\n| Investment | 567 | 654 | 423 |\n| Intangibles | 423 | 123 | 453 |\n| Current assets |  |  |  |\n| Trade | 435 | 634 | 231 |\n| Cash | 524 | 123 | 482 |\n| Other | 223 | 211 | 254 |\n| Current liabilities |  |  |  |\n| Trade liabilities | 154 | 125 | 421 |\n| Financial debt | 231 | 474 | 572 |\n| Provisions | 111 | 312 | 347 |"
+  },
+  {
+    "id": "73ded48a513846e9af4daf46b4e85662",
+    "type": "table",
+    "document_id": "sample-tables.pdf",
+    "pages": [
+      11
+    ],
+    "bbox": null,
+    "extract_method": "lattice",
+    "table_markdown": "|  | South America | Asia | Africa | Australia |\n| --- | --- | --- | --- | --- |\n| 2010 |  |  |  |  |\n| Highest average | 523.6 | 467.4 | 405.0 | 340.5 |\n| Highest in 24 hours | 73.1 | 54.1 | 27.2 | 66.3 |\n| Highest in 12 hours | 42.4 | 30.1 | 15.9 | 40.3 |\n| 2009 |  |  |  |  |\n| Highest average | 487.7 | 453.6 | 398.7 | 356 |\n| Highest in 24 hours | 67.2 | 53.2 | 44.3 | 53.8 |\n| Highest in 12 hours | 34.7 | 34.1 | 29.8 | 31.0 |\n| 2008 |  |  |  |  |\n| Highest average | 496.7 | 444.3 | 502.1 | 399.6 |\n| Highest in 24 hours | 44.2 | 56.7 | 32.1 | 63.2 |\n| Highest in 12 hours | 30.1 | 32.7 | 21.9 | 40.2 |"
+  }
+]
